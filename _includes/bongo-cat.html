@@ -479,3 +479,22 @@ path#f3-l9 {
     #bongo-cat [id^="paw-"] { animation: none !important; }
   }
 </style>
+
+<script>
+  // Keep the bongo cat fixed in the bottom-right, but rest it just above the
+  // footer once the footer scrolls into view (so it never overlaps the footer).
+  (function () {
+    var cat = document.querySelector('.bongocat');
+    var footer = document.querySelector('.page__footer');
+    if (!cat || !footer) return;
+    var GAP = 16; // px gap from the viewport bottom / footer top
+    function update() {
+      var footerTop = footer.getBoundingClientRect().top;
+      var overlap = window.innerHeight - footerTop; // footer height intruding into the viewport
+      cat.style.bottom = (overlap > 0 ? overlap + GAP : GAP) + 'px';
+    }
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+  })();
+</script>
