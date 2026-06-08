@@ -1,33 +1,25 @@
-# The following is the order of the links in the header of the website.
+# Header navigation menu — the order here is the order shown in the site header.
 #
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# To add a menu item: copy a block below and set its `title` (the label shown)
+# and `url` (the page's permalink, e.g. /publications/).
+# To hide a menu item: delete or comment out its block. The page still exists,
+# it just won't appear in the menu.
 
 main:
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
   - title: "Teaching"
-    url: /teaching/    
-    
+    url: /teaching/
+
   - title: "Portfolio"
     url: /portfolio/
-        
+
   - title: "Blog Posts"
     url: /year-archive/
-    
+
   - title: "CV"
     url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
