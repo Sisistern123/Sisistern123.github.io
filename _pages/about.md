@@ -27,5 +27,3 @@ sequence modeling · drug response prediction · computational biology.
 
 You can find my work on the [Publications](/publications/) and [Portfolio](/portfolio/)
 pages, or take a look at my [CV](/cv/).
-
-{% include bongo-cat.html %}

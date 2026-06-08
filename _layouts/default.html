@@ -25,6 +25,8 @@ layout: compress
       </footer>
     </div>
 
+    {% if page.url == "/" %}{% include bongo-cat.html %}{% endif %}
+
     {% include scripts.html %}
 
   </body>
