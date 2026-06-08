@@ -19,16 +19,14 @@ This README is the only thing you need to edit the site. The rule of thumb:
 | The top menu / navigation        | `_data/navigation.yml`                      |
 | The home page                    | `_pages/about.md`                           |
 | My CV                            | `_pages/cv.md`                              |
-| A blog post                      | `_posts/`                                    |
 | A publication                    | `_publications/`                            |
-| A talk                           | `_talks/`                                    |
-| Teaching                         | `_teaching/`                                |
 | A portfolio item                 | `_portfolio/`                               |
 | Downloadable files (PDFs, etc.)  | `files/`  → served at `/files/<name>`       |
 | Images                           | `images/` → referenced as `/images/<name>`  |
 
-Everything else (`_layouts/`, `_includes/`, `_sass/`, `assets/`) is the **theme**.
-You don't need to open these to run the site.
+The site currently has three sections in the menu: **Publications**, **Portfolio**,
+and **CV** (plus the home page). Everything else (`_layouts/`, `_includes/`,
+`_sass/`, `assets/`) is the **theme** — you don't need to open these to run the site.
 
 ---
 
@@ -40,20 +38,6 @@ the existing files are working templates.
 
 The block at the top of each file between `---` lines is "front matter": structured
 data the theme reads. The text below the second `---` is the body (plain Markdown).
-
-### Blog post — `_posts/`
-Filename **must** be `YYYY-MM-DD-title.md`.
-```yaml
----
-title: 'My post title'
-date: 2025-01-31
-permalink: /posts/2025/01/my-post-title/
-tags:
-  - tag one
-  - tag two
----
-Write the post body here in Markdown.
-```
 
 ### Publication — `_publications/`
 Filename convention: `YYYY-MM-DD-short-name.md`.
@@ -73,32 +57,6 @@ citation: 'Your Name. (2025). "Paper title." <i>Venue</i>.'
 ---
 ```
 
-### Talk — `_talks/`
-```yaml
----
-title: "Talk title"
-collection: talks
-type: "Talk"                   # e.g. "Talk", "Tutorial", "Conference proceedings talk"
-permalink: /talks/2025-01-31-talk
-venue: "Host / department"
-date: 2025-01-31
-location: "City, Country"
----
-```
-
-### Teaching — `_teaching/`
-```yaml
----
-title: "Course title"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2025-course
-venue: "University, Department"
-date: 2025-01-01
-location: "City, Country"
----
-```
-
 ### Portfolio — `_portfolio/`
 ```yaml
 ---
@@ -112,6 +70,12 @@ Longer description here.
 ### Standalone page — `_pages/`
 Set a `permalink` to control the URL, then add it to the menu in
 `_data/navigation.yml` if you want it in the header.
+
+### Adding a new section later (e.g. Talks, Teaching, Blog)
+This site was trimmed to Publications + Portfolio. To bring back another section,
+register a collection under `collections:` in `_config.yml`, create the matching
+`_<name>/` folder with entries, add a page in `_pages/` to list them, and link it
+in `_data/navigation.yml`.
 
 ---
 

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Selin Türkoğlu"
 title_separator          : "-"
 name                     : &name "Selin Türkoğlu"
-description              : &description "Protein ML + Bioinformatics Research"
+description              : &description "Machine learning &amp; deep learning for bioinformatics"
 url                      : "https://www.selin-tuerkoglu.com" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sisistern123/sisistern123.github.io"
@@ -26,27 +26,27 @@ repository               : "sisistern123/sisistern123.github.io"
 #  see the full list in _includes/author-profile.html and add a matching line.
 author:
   # Biographic information
-  avatar           : "profile.png"          # image file in /images/
-  name             : "Your Sidebar Name"
+  avatar           : "bio-photo.jpg"        # image file in /images/
+  name             : "Selin Türkoğlu"
   pronouns         : # example: "she/her"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "MSc Bioinformatics @ TUM &amp; LMU. Machine &amp; deep learning for bioinformatics."
+  location         : "Currently: Tsunoda Lab, Univ. of Tokyo"
+  employer         : "MSc Bioinformatics, TUM &amp; LMU"
   uri              : # personal website URL
-  email            : "none@example.org"
+  email            : "selin.tuerkoglu@tum.de"
 
   # Academic profiles
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : "http://orcid.org/yourorcidurl"
+  googlescholar    : "https://scholar.google.com/citations?user=grljZDMAAAAJ&hl=en"
+  orcid            : "https://orcid.org/0009-0002-2296-994X"
   arxiv            : # URL to your arXiv author page
   semantic         : # URL to your Semantic Scholar profile
   researchgate     : # URL to your ResearchGate profile
 
   # Code & social
-  github           : "academicpages"        # username
-  linkedin         : # username
-  bluesky          : "bsky.app"             # username
-  twitter          : # username for X / Twitter
+  github           : "Sisistern123"         # username
+  linkedin         : "selin-tuerkoglu"      # username (linkedin.com/in/<username>)
+  bluesky          : # username
+  twitter          : "SelinTuerkoglu"       # username for X / Twitter
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -153,16 +153,10 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -186,14 +180,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
   # _publications
   - scope:
       path: ""
@@ -208,14 +194,6 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
       share: true
 

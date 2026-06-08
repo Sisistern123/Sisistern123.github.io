@@ -17,3 +17,6 @@ vendor/
 .bundle/
 
 .idea
+
+# Local source CV (outdated draft, not published to the site)
+CV.pdf

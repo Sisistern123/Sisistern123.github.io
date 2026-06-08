@@ -11,54 +11,51 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.Sc. in Bioinformatics**, Technical University of Munich (TUM) &amp; Ludwig
+  Maximilian University of Munich (LMU) — joint program, April 2025 – present
+* **B.Sc. in Bioinformatics**, TUM &amp; LMU — joint program, November 2020 – March 2025
+  * Final grade: 2.4 (German scale, 1.0 = best)
+  * Bachelor's thesis: *Prediction of Animal Toxin Protein Families* — grade 1.0
+  * Key areas: genomics, transcriptomics, proteomics, machine learning, deep
+    learning, statistical and high-throughput data analysis
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Mar 2026 – Aug 2026 · Visiting Researcher**, Tsunoda Lab, University of Tokyo (Todai)
+  * Predicting anti-cancer drug efficacy scores using machine learning
+* **Mar 2024 – May 2025 · Research Assistant**, RostLab, TUM (Munich)
+  * Continued the toxin protein family prediction project after graduation;
+    reworked the data handling pipeline
+* **Jan 2023 – Jun 2023 · Research Assistant**, Zielinski Lab, Leibniz HKI (Jena)
+  * Human T-cell immunology with high-dimensional scRNA-seq data analysis (Seurat, Scanpy)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Projects
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* **Predicting Toxin Protein Families** — a toxin protein-family classifier reaching
+  ~98% accuracy using protein language model embeddings
+  (supervised by Prof. Burkhard Rost &amp; Dr. Ivan Koludarov)
+* **Signal Peptide Prediction** — a machine-learning model for signal peptide
+  classification (supervised by Prof. Burkhard Rost &amp; Dr. Konstantin Weißenow)
+
+Conferences
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* AI for Health Symposium 2025, Helmholtz Munich
+
+Skills
+======
+* **Programming:** Python, Java, Bash, SQL, R
+* **ML &amp; data science:** PyTorch, scikit-learn, CNNs, NumPy, Pandas, SciPy
+* **Bioinformatics:** BLAST, MMseqs2, UniProt, GenBank, Scanpy, Seurat, DESeq2
+* **Tools:** Git, Jupyter, LaTeX, Markdown
+* **Languages:** German (native), English (C1), French (B1), Japanese (A1)
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* **Bioinformatics Student Representative** — represented student interests and organized student events
+* **Student Senator, LMU** — contributed to university-wide decision-making and student welfare, and managed student body finances
