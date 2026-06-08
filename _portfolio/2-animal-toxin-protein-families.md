@@ -1,19 +1,22 @@
 ---
-title: "Predicting Animal Toxin Protein Families"
-excerpt: "A toxin protein-family classifier reaching ~98% accuracy using protein language model embeddings. Bachelor's thesis (graded 1.0), continued at RostLab, TUM."
+title: "ToxFam — Predicting Animal Toxin Protein Families"
+excerpt: "A toxin protein-family classifier reaching ~98% accuracy using ProtT5 protein language model embeddings. Bachelor's thesis (graded 1.0), continued at RostLab, TUM."
 collection: portfolio
+link: https://github.com/Sisistern123/ToxFam
 ---
 
 My bachelor's thesis at **TUM &amp; LMU** (graded 1.0), later continued as a
-research assistant at the **RostLab, TUM**. Supervised by Prof. Burkhard Rost and
-Dr. Ivan Koludarov.
+research assistant at the **RostLab, TUM** (supervised by Prof. Burkhard Rost and
+Dr. Ivan Koludarov).
 
-- Built a curated dataset spanning a range of animal toxin protein families.
-- Implemented a classification model that reaches **~98% accuracy** using
-  **protein language model–derived embeddings**.
-- Reworked the data-handling pipeline during the follow-up research phase.
+- Classifies animal toxin sequences into families using MLP networks on **ProtT5**
+  embeddings, with optional NCBI taxonomy features.
+- Reduces sequence redundancy with MMseqs2 clustering and harmonizes labels;
+  reaches **~98% accuracy**.
+- Runnable in Google Colab on your own FASTA sequences.
 
-This work also fed into a co-authored publication on venom database metrics
-(see [Publications](/publications/)).
+**Code:** [github.com/Sisistern123/ToxFam](https://github.com/Sisistern123/ToxFam)
 
-*Code link coming soon.*
+This work also fed into a co-authored publication on venom database metrics (see
+[Publications](/publications/)); the underlying ToxProt analysis lives in
+[tsenoner/toxprot25](https://github.com/tsenoner/toxprot25).
