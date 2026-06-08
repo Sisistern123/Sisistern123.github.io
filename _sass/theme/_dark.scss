@@ -11,10 +11,11 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $background                 : #0e0624;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$text                       : #ece8f5;
+$text-muted                 : #b8b0cf;
+$link                       : #b794f6; // violet accent for the dark-purple background
+$link-hover                 : mix(#fff, $link, 30%); // lighter on hover (dark bg)
+$link-visited               : #c9a9e9;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -44,11 +45,11 @@ html[data-theme="dark"] {
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
+    --global-link-color-hover           : #{$link-hover};
+    --global-link-color-visited         : #{$link-visited};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$link-hover};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
+    --global-text-color-light           : #{$text-muted};
     --global-thead-color                : #{$background-lighter};
 }
