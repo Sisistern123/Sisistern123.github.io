@@ -26,22 +26,33 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Default light theme for the site */
+/* Lavender light theme palette */
+$lav-bg                     : #c7b3fc;
+$lav-footer                 : #d7c9fd;
+$lav-text                   : #1e1433;
+$lav-text-muted             : #574a7a;
+$lav-link                   : #5b21b6;
+$lav-link-hover             : #4c1d95;
+$lav-link-visited           : #7c3aed;
+$lav-border                 : #ad97f0;
+$lav-dark-border            : #9a82e6;
+
+/* Default light theme for the site (lavender, #c7b3fc) */
 :root {
-    --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-base-color                 : #{$lav-text};
+    --global-bg-color                   : #{$lav-bg};
+    --global-footer-bg-color            : #{$lav-footer};
+    --global-border-color               : #{$lav-border};
+    --global-dark-border-color          : #{$lav-dark-border};
+    --global-code-background-color      : #f3eefe;
+    --global-code-text-color            : #{$lav-text};
+    --global-fig-caption-color          : #{$lav-text-muted};
+    --global-link-color                 : #{$lav-link};
+    --global-link-color-hover           : #{$lav-link-hover};
+    --global-link-color-visited         : #{$lav-link-visited};
+    --global-masthead-link-color        : #{$lav-text};
+    --global-masthead-link-color-hover  : #{$lav-link};
+    --global-text-color                 : #{$lav-text};
+    --global-text-color-light           : #{$lav-text-muted};
+    --global-thead-color                : #{$lav-footer};
 }
