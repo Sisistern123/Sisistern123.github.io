@@ -28,7 +28,10 @@ sequence modeling · drug response prediction · computational biology.
 You can find my work on the [Publications](/publications/) and [Portfolio](/portfolio/)
 pages, or take a look at my [CV](/cv/).
 
-<div style="position: fixed; right: 1rem; bottom: 1rem; width: 150px; z-index: 1000;">
-  <div class="tenor-gif-embed" data-postid="17773853" data-share-method="host" data-aspect-ratio="0.640625" data-width="100%"><a href="https://tenor.com/view/bongo-cat-typing-keyboard-smash-gif-17773853">Bongo Cat Typing GIF</a>from <a href="https://tenor.com/search/bongo+cat-gifs">Bongo Cat GIFs</a></div>
+<div style="position: fixed; right: 1rem; bottom: 1rem; z-index: 1000; display: flex; align-items: flex-end; gap: 0.5rem;">
+  <iframe src="https://widgets.plusdocs.com/bongo-cat" title="Bongo Cat" width="180" height="150" frameborder="0" scrolling="no" style="border: 0; background: transparent;"></iframe>
+  <div style="width: 150px;">
+    <div class="tenor-gif-embed" data-postid="17773853" data-share-method="host" data-aspect-ratio="0.640625" data-width="100%"><a href="https://tenor.com/view/bongo-cat-typing-keyboard-smash-gif-17773853">Bongo Cat Typing GIF</a>from <a href="https://tenor.com/search/bongo+cat-gifs">Bongo Cat GIFs</a></div>
+  </div>
 </div>
 <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
