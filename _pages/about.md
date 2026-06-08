@@ -28,6 +28,4 @@ sequence modeling · drug response prediction · computational biology.
 You can find my work on the [Publications](/publications/) and [Portfolio](/portfolio/)
 pages, or take a look at my [CV](/cv/).
 
-<div style="position: fixed; right: 1rem; bottom: 1rem; z-index: 1000; width: 300px;">
-  <iframe height="240" style="width: 100%;" scrolling="no" title="Bongo Cat" src="https://codepen.io/carolineartz/embed/VwYwZaP?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
-</div>
+{% include bongo-cat.html %}
