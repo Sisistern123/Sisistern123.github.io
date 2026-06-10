@@ -23,11 +23,14 @@ Research experience
 ======
 * **Mar 2026 – Aug 2026 · Visiting Researcher**, Tsunoda Lab, University of Tokyo (Todai)
   * Predicting anti-cancer drug efficacy scores using machine learning
-* **Mar 2024 – May 2025 · Research Assistant**, RostLab, TUM (Munich)
+* **Mar 2024 – Mar 2026 · Research Assistant**, [RostLab](https://www.cs.cit.tum.de/bio/home/), TUM (Munich)
   * Continued the toxin protein family prediction project after graduation;
     reworked the data handling pipeline
+* **Jul 2025 – Dec 2025 · Research Student**, [Heinzinger Lab](https://www.helmholtz-munich.de/icb/research-groups/heinzinger-lab), Helmholtz Munich (Institute of Computational Biology, ICB)
 * **Jan 2023 – Jun 2023 · Research Assistant**, Zielinski Lab, Leibniz HKI (Jena)
   * Human T-cell immunology with high-dimensional scRNA-seq data analysis (Seurat, Scanpy)
+* **Sep 2021 – Dec 2022 · Working Student**, Bavarian State Office for Health and
+  Food Safety (LGL), Munich
 
 Publications
 ======
