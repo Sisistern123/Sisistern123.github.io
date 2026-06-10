@@ -14,8 +14,8 @@ Education
 * **M.Sc. in Bioinformatics**, Technical University of Munich (TUM) &amp; Ludwig
   Maximilian University of Munich (LMU) — joint program, April 2025 – present
 * **B.Sc. in Bioinformatics**, TUM &amp; LMU — joint program, November 2020 – March 2025
-  * Final grade: 2.4 (German scale, 1.0 = best)
-  * Bachelor's thesis: *Prediction of Animal Toxin Protein Families* — grade 1.0
+  * Bachelor's thesis: *Prediction of Animal Toxin Protein Families* — graded
+    1.0 (top mark on the German scale, where 1.0 is best)
   * Key areas: genomics, transcriptomics, proteomics, machine learning, deep
     learning, statistical and high-throughput data analysis
 
@@ -49,8 +49,8 @@ Projects
     with optional NCBI taxonomy features; ongoing toward a publication
   * Supervised by Dr. Ivan Koludarov, Tobias Senoner &amp; Prof. Burkhard Rost
 * **[ProFold — End-to-End Protein Structure Prediction](https://github.com/BetelgeuseBugFixer/MaPra2025)** · Master's practical, TUM, 2025
-  * Differentiable sequence-to-structure framework (pLM + CNN + Bio2Token),
-    ~100× faster than ESMFold
+  * Differentiable sequence-to-structure framework (pLM + CNN + Bio2Token);
+    ~100× faster than ESMFold, at lower accuracy (~0.64 average lDDT on CASP15)
   * Supervised by Dr. Michael Heinzinger &amp; Prof. Burkhard Rost
 * **[InsDelGLM — Variant Effect Prediction](https://github.com/LegoCreation/InsDelGLM)** · Course project (Computational Modeling for Systems Genetics), TUM, 2025–2026
   * Predicting the effect of insertion and deletion variants with genomic
