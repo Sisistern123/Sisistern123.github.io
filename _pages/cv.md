@@ -40,23 +40,27 @@ Publications
 
 Projects
 ======
-* **OncoTox — Predicting Anti-Cancer Drug Efficacy** · Tsunoda Lab, Univ. of Tokyo, 2026
+* **OncoTox — Predicting Anti-Cancer Drug Efficacy** · Research project, Tsunoda Lab, University of Tokyo, 2026 · *private repository*
   * Multi-task model predicting per-drug cancer cell viability from single-cell
     RNA-seq (CTRPv2 drug response, scGPT embeddings)
-* **[ToxFam — Predicting Animal Toxin Protein Families](https://github.com/Sisistern123/ToxFam)** · Bachelor's thesis (grade 1.0), continued at RostLab
+  * Supervised by Prof. Tsunoda &amp; Dr. Artem Lysenko
+* **[ToxFam — Predicting Animal Toxin Protein Families](https://github.com/Sisistern123/ToxFam)** · Bachelor's thesis, RostLab, TUM, 2024–2025
   * Toxin protein-family classifier reaching ~98% accuracy from ProtT5 embeddings
-    with optional NCBI taxonomy features
-  * Supervised by Prof. Burkhard Rost &amp; Dr. Ivan Koludarov
-* **[ProFold — End-to-End Protein Structure Prediction](https://github.com/BetelgeuseBugFixer/MaPra2025)** · Master's practical, 2025
+    with optional NCBI taxonomy features; ongoing toward a publication
+  * Supervised by Dr. Ivan Koludarov, Tobias Senoner &amp; Prof. Burkhard Rost
+* **[ProFold — End-to-End Protein Structure Prediction](https://github.com/BetelgeuseBugFixer/MaPra2025)** · Master's practical, TUM, 2025
   * Differentiable sequence-to-structure framework (pLM + CNN + Bio2Token),
     ~100× faster than ESMFold
-* **[InsDelGLM — Variant Effect Prediction](https://github.com/LegoCreation/InsDelGLM)** · Team project, 2026
+  * Supervised by Dr. Michael Heinzinger &amp; Prof. Burkhard Rost
+* **[InsDelGLM — Variant Effect Prediction](https://github.com/LegoCreation/InsDelGLM)** · Course project (Computational Modeling for Systems Genetics), TUM, 2025–2026
   * Predicting the effect of insertion and deletion variants with genomic
     language models
-* **ProtFrag — Protein Fragment Prediction**
+  * Supervised by Pedro Tomaz da Silva &amp; Prof. Julien Gagneur
+* **ProtFrag — Protein Fragment Prediction** · Course project (Protein Prediction II), TUM, 2025–2026 · *private repository*
   * Multi-task model classifying complete vs. fragment and the fragment type,
     from ProtT5 embeddings
-* **Signal Peptide Prediction** · RostLab, TUM
+  * Supervised by Tobias Senoner &amp; Prof. Burkhard Rost
+* **Signal Peptide Prediction** · Research project, RostLab, TUM, 2021–2022 · *code coming soon*
   * Machine-learning model for signal peptide classification
   * Supervised by Prof. Burkhard Rost &amp; Dr. Konstantin Weißenow
 
