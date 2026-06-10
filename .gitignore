@@ -17,6 +17,8 @@ vendor/
 .bundle/
 
 .idea
+.DS_Store
 
-# Local source CV (outdated draft, not published to the site)
+# Local source CV (outdated draft, not published to the site).
+# The LaTeX CV source now lives in a separate private repo, not here.
 CV.pdf
