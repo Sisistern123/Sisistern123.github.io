@@ -60,7 +60,7 @@ Projects
   * Multi-task model classifying complete vs. fragment and the fragment type,
     from ProtT5 embeddings
   * Supervised by Tobias Senoner &amp; Prof. Burkhard Rost
-* **Signal Peptide Prediction** · Research project, RostLab, TUM, 2021–2022 · *code coming soon*
+* **[Signal Peptide Prediction](https://github.com/Moomboh/PBL-rost-2021-signal-peptides)** · Research project, RostLab, TUM, 2021–2022
   * Machine-learning model for signal peptide classification
   * Supervised by Prof. Burkhard Rost &amp; Dr. Konstantin Weißenow
 
