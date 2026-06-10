@@ -65,3 +65,13 @@
     font-weight: 700;
   }
 }
+
+/* Faint, easter-egg "Fun" tab — very transparent until hovered/focused. */
+.masthead__menu-item a[href$="/fun/"] {
+  opacity: 0.3;
+  transition: opacity 0.2s ease-in-out;
+}
+.masthead__menu-item a[href$="/fun/"]:hover,
+.masthead__menu-item a[href$="/fun/"]:focus {
+  opacity: 1;
+}
