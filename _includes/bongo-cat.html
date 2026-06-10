@@ -1,7 +1,8 @@
 <!-- "Bongo Cat Codes" by Caroline Artz (https://codepen.io/carolineartz/pen/VwYwZaP),
      self-hosted. Pure inline SVG + CSS animation; transparent; pinned bottom-right. -->
-<div class="bongocat" aria-hidden="true">
-<svg id="bongo-cat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 787.3 433.8">
+<div class="bongocat">
+<a class="bongocat__link" href="https://codepen.io/carolineartz/pen/VwYwZaP" target="_blank" rel="noopener noreferrer" aria-label="Bongo Cat animation by Caroline Artz — opens on CodePen" title="Bongo Cat by Caroline Artz — view on CodePen">
+<svg id="bongo-cat" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 787.3 433.8">
       <defs>
         <symbol id="eye" data-name="eye" viewBox="0 0 19.2 18.7">
           <circle cx="9.4" cy="9.1" r="8"></circle>
@@ -125,10 +126,12 @@
         </g>
       </g>
     </svg>
+</a>
 </div>
 
 <style>
   .bongocat { position: fixed; right: 1rem; bottom: 1rem; width: 260px; z-index: 9999; pointer-events: none; }
+  .bongocat__link { display: block; pointer-events: auto; cursor: pointer; }
   .bongocat #bongo-cat { width: 100%; height: auto; display: block; overflow: visible; }
   @media only screen and (max-width: 600px) { .bongocat { width: 170px; } }
 
