@@ -268,8 +268,13 @@
    instead of the compact "Follow" button + popup.
    ========================================================================== */
 @media screen and (max-width: 57.8125em) { /* below $large (925px) */
-  /* Pull the stacked profile up close to the masthead — drop the extra top
-     margin #main and the sidebar carry on larger screens. */
+  /* Pull the stacked profile up close to the masthead. On mobile the masthead
+     collapses to a single ~56px row, but the body reserves a fixed 70px to
+     clear it — trim that to match, and drop the extra top margins #main and
+     the sidebar carry on larger screens. */
+  body {
+    padding-top: 3.5em; /* ~56px, matching the collapsed mobile masthead */
+  }
   #main {
     margin-top: 0.5em;
   }
