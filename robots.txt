@@ -61,4 +61,4 @@ Disallow: /
 User-agent: cohere-ai
 Disallow: /
 
-Sitemap: https://selin-tuerkoglu.com/sitemap.xml
+Sitemap: https://www.selin-tuerkoglu.com/sitemap.xml
