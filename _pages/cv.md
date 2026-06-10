@@ -40,22 +40,25 @@ Publications
 
 Projects
 ======
-* **OncoTox — Predicting Anti-Cancer Drug Efficacy** (Tsunoda Lab, Univ. of Tokyo, 2026)
-  — multi-task model predicting per-drug cancer cell viability from single-cell
-  RNA-seq (CTRPv2 drug response, scGPT embeddings)
-* **ToxFam — Predicting Animal Toxin Protein Families** — toxin protein-family
-  classifier reaching ~98% accuracy using ProtT5 protein language model embeddings
-  and optional taxonomy features (supervised by Prof. Burkhard Rost &amp;
-  Dr. Ivan Koludarov) · [github.com/Sisistern123/ToxFam](https://github.com/Sisistern123/ToxFam)
-* **ProFold — End-to-End Protein Structure Prediction** (Master's practical, 2025)
-  — differentiable sequence-to-structure framework (pLM + CNN + Bio2Token),
-  ~100× faster than ESMFold · [github.com/BetelgeuseBugFixer/MaPra2025](https://github.com/BetelgeuseBugFixer/MaPra2025)
-* **InsDelGLM — Variant Effect Prediction** — predicting the effect of insertion
-  and deletion variants with genomic language models · [github.com/LegoCreation/InsDelGLM](https://github.com/LegoCreation/InsDelGLM)
-* **ProtFrag — Protein Fragment Prediction** — multi-task model classifying whether
-  a sequence is complete vs. a fragment and the fragment type, from ProtT5 embeddings
-* **Signal Peptide Prediction** — machine-learning model for signal peptide
-  classification (supervised by Prof. Burkhard Rost &amp; Dr. Konstantin Weißenow)
+* **OncoTox — Predicting Anti-Cancer Drug Efficacy** · Tsunoda Lab, Univ. of Tokyo, 2026
+  * Multi-task model predicting per-drug cancer cell viability from single-cell
+    RNA-seq (CTRPv2 drug response, scGPT embeddings)
+* **[ToxFam — Predicting Animal Toxin Protein Families](https://github.com/Sisistern123/ToxFam)** · Bachelor's thesis (grade 1.0), continued at RostLab
+  * Toxin protein-family classifier reaching ~98% accuracy from ProtT5 embeddings
+    with optional NCBI taxonomy features
+  * Supervised by Prof. Burkhard Rost &amp; Dr. Ivan Koludarov
+* **[ProFold — End-to-End Protein Structure Prediction](https://github.com/BetelgeuseBugFixer/MaPra2025)** · Master's practical, 2025
+  * Differentiable sequence-to-structure framework (pLM + CNN + Bio2Token),
+    ~100× faster than ESMFold
+* **[InsDelGLM — Variant Effect Prediction](https://github.com/LegoCreation/InsDelGLM)** · Team project, 2026
+  * Predicting the effect of insertion and deletion variants with genomic
+    language models
+* **ProtFrag — Protein Fragment Prediction**
+  * Multi-task model classifying complete vs. fragment and the fragment type,
+    from ProtT5 embeddings
+* **Signal Peptide Prediction** · RostLab, TUM
+  * Machine-learning model for signal peptide classification
+  * Supervised by Prof. Burkhard Rost &amp; Dr. Konstantin Weißenow
 
 Conferences
 ======
