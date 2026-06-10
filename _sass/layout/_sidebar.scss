@@ -279,8 +279,10 @@
     margin-bottom: 12px;
   }
   .sidebar .author__avatar img {
+    display: block;
     width: auto;
     max-width: 140px;
+    margin: 0 auto;
     padding: 5px;
     border: 1px solid var(--global-border-color);
   }
