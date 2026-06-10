@@ -8,4 +8,4 @@ A little corner for the non-academic stuff.
 
 ## Akasha
 
-A record of my [Akasha profile](https://akasha.cv/profile/734569340).
+A record of my [genshin character ranks](https://akasha.cv/profile/734569340).
