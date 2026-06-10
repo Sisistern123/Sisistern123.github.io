@@ -268,36 +268,56 @@
    instead of the compact "Follow" button + popup.
    ========================================================================== */
 @media screen and (max-width: 57.8125em) { /* below $large (925px) */
+  /* Pull the stacked profile up close to the masthead — drop the extra top
+     margin #main and the sidebar carry on larger screens. */
+  #main {
+    margin-top: 0.5em;
+  }
   .sidebar {
     text-align: center;
+    margin-top: 0;
   }
 
+  /* Centered avatar. */
   .author__avatar {
     display: block;
     width: auto;
     height: auto;
-    margin-bottom: 12px;
+    margin-bottom: 1em;
   }
   .sidebar .author__avatar img {
     display: block;
     width: auto;
-    max-width: 140px;
+    max-width: 150px;
     margin: 0 auto;
     padding: 5px;
     border: 1px solid var(--global-border-color);
   }
 
+  /* Centered name + bio, kept to a comfortable measure so lines wrap nicely. */
   .author__content {
     display: block;
     width: 100%;
+    max-width: 20em;
+    margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-    line-height: 1.4;
+    line-height: 1.45;
+  }
+  .sidebar .author__name {
+    margin-bottom: 0.35em;
+  }
+  .author__bio {
+    margin: 0.35em 0 0;
   }
 
-  /* Hide the "Follow" toggle button. */
+  /* Hide the "Follow" toggle button, and keep the links in the same centered
+     measure as the name/bio so the whole profile reads as one column. */
   .author__urls-wrapper {
     display: block;
+    width: 100%;
+    max-width: 20em;
+    margin: 0 auto;
   }
   .author__urls-wrapper button {
     display: none;
@@ -308,12 +328,15 @@
     display: block;
   }
 
-  /* Render the links inline (no popup card, no arrow). */
+  /* Render the links as a left-aligned column: the photo and name stay
+     centered, while the icons line up flush along the column's left edge
+     (left of page-centre) — no popup card or arrow. */
   .author__urls {
-    display: inline-block;
+    display: block;
     position: relative;
     right: auto;
-    margin: 12px 0 0;
+    width: 100%;
+    margin: 1.25em 0 0;
     padding: 0;
     border: 0;
     background: transparent;
@@ -324,5 +347,13 @@
   .author__urls:before,
   .author__urls:after {
     display: none;
+  }
+  .author__urls li {
+    margin-bottom: 0.4em;
+    white-space: normal;
+  }
+  .author__urls a {
+    margin-bottom: 0;
+    font-size: $type-size-5;
   }
 }
