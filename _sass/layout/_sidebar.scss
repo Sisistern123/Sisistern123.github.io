@@ -262,3 +262,65 @@
     }
   }
 }
+
+/*
+   Mobile: show the full author profile (avatar, name, bio, location, links)
+   instead of the compact "Follow" button + popup.
+   ========================================================================== */
+@media screen and (max-width: 57.8125em) { /* below $large (925px) */
+  .sidebar {
+    text-align: center;
+  }
+
+  .author__avatar {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  .sidebar .author__avatar img {
+    width: auto;
+    max-width: 140px;
+    padding: 5px;
+    border: 1px solid var(--global-border-color);
+  }
+
+  .author__content {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.4;
+  }
+
+  /* Hide the "Follow" toggle button. */
+  .author__urls-wrapper {
+    display: block;
+  }
+  .author__urls-wrapper button {
+    display: none;
+  }
+
+  /* Always show location / employer on mobile too. */
+  .sidebar .author__desktop {
+    display: block;
+  }
+
+  /* Render the links inline (no popup card, no arrow). */
+  .author__urls {
+    display: inline-block;
+    position: relative;
+    right: auto;
+    margin: 12px 0 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    text-align: left;
+    z-index: auto;
+  }
+  .author__urls:before,
+  .author__urls:after {
+    display: none;
+  }
+}
